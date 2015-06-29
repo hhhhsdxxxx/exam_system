@@ -9,6 +9,7 @@ bool problem::give_score(int d){
 	if(d > 10 || d < -1)
 		return false;
 	h_score = d*score/10;
+    is_judge = true;
 	return true;
 }
 
